@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rivange</string>
+
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_partidos">Partidos</string>
+    <string name="nav_ranking">Ranking</string>
+    <string name="nav_chats">Chats</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <string name="login">Iniciar sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+
+    <string name="temperatura">Temperatura</string>
+    <string name="humedad">Humedad</string>
+    <string name="indice_termico">Índice térmico</string>
+
+    <string name="nueva_reserva">Nueva reserva</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="panel_admin">Panel admin</string>
+</resources>

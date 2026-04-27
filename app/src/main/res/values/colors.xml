@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rivange_primary">#5B4CF0</color>
+    <color name="rivange_primary_dark">#4338CA</color>
+    <color name="rivange_secondary">#19C6B4</color>
+    <color name="rivange_secondary_dark">#11998A</color>
+    <color name="rivange_accent">#8B7CFF</color>
+
+    <color name="background_main">#0F1220</color>
+    <color name="background_surface">#171B2E</color>
+    <color name="background_surface_light">#1E233A</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8C0D9</color>
+    <color name="text_hint">#7E88A8</color>
+    <color name="text_dark">#10131F</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="stroke_soft">#2A3150</color>
+    <color name="divider">#252B46</color>
+
+    <color name="success">#1FC16B</color>
+    <color name="warning">#F4A524</color>
+    <color name="danger">#E5484D</color>
+    <color name="info">#3E8BFF</color>
+
+    <color name="sensor_good">#1FC16B</color>
+    <color name="sensor_warning">#F4A524</color>
+    <color name="sensor_danger">#E5484D</color>
+    <color name="sensor_neutral">#6B7280</color>
+
+    <color name="bottom_nav_bg">#14192B</color>
+    <color name="bottom_nav_item">#8B93B0</color>
+    <color name="bottom_nav_item_selected">#FFFFFF</color>
+
+</resources>
