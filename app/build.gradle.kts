@@ -1,6 +1,13 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
+}
+
+val localProperties = Properties().apply {
+    val file = rootProject.file("local.properties")
+    if (file.exists()) file.inputStream().use { load(it) }
 }
 
 android {
@@ -16,8 +23,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "HOME_ASSISTANT_URL", "\"http://suarezdefigueroa.es:8000\"")
-        buildConfigField("String", "HOME_ASSISTANT_TOKEN", "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI3ZTEzNjk2NzI2MTk0MTI0YmQ5MmM2MzFhNzc2YmMxZCIsImlhdCI6MTc2NDAwNzk4MiwiZXhwIjoyMDc5MzY3OTgyfQ.u4p9SWdXQbFpk7OibFm6pBO2stX9FGfiJmcPqXUO_a8\"")
+        buildConfigField("String", "HOME_ASSISTANT_URL", "\"${localProperties.getProperty("HOME_ASSISTANT_URL", "")}\"")
+        buildConfigField("String", "HOME_ASSISTANT_TOKEN", "\"${localProperties.getProperty("HOME_ASSISTANT_TOKEN", "")}\"")
     }
 
     buildFeatures {
