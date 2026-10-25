@@ -80,4 +80,4 @@ Así la lógica del índice de calor no depende de Android y se puede probar por
 
 ## Autor
 
-**Raúl Núñez González**: [LinkedIn](https://www.linkedin.com/in/raúl-núñez-gonzález-17032a389) · [GitHub](https://github.com/RaulNuGo06)
+**Raúl Núñez González**: [LinkedIn](https://www.linkedin.com/in/raulnugo06) · [GitHub](https://github.com/RaulNuGo06)
