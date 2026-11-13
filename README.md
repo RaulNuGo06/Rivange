@@ -4,13 +4,6 @@ App Android nativa para gestionar un complejo deportivo: reserva de pistas, part
 
 Proyecto de fin de ciclo de **Desarrollo de Aplicaciones Multiplataforma** (IES Arroyo Harnina, 2026).
 
-<!-- Sustituye por capturas reales: crea la carpeta docs/capturas y deja ahí las imágenes -->
-<p align="center">
-  <img src="docs/capturas/inicio.png" width="220" alt="Inicio con el tiempo en pista">
-  <img src="docs/capturas/reserva.png" width="220" alt="Nueva reserva">
-  <img src="docs/capturas/ranking.png" width="220" alt="Ranking">
-</p>
-
 ## Qué hace
 
 - **Reservas de pistas** de pádel, tenis, fútbol y baloncesto, por fecha y hora, comprobando que la pista no esté ya ocupada.
